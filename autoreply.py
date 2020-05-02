@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Firefox()
+driver=webdriver.Safari()
 driver.get("https://web.whatsapp.com/")
 
 input("Press anything after QR scan")
